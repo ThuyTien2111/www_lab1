@@ -25,6 +25,18 @@ public class Account {
   private byte status;
   // Constructors, getters, and setters here...
 
+  @Override
+  public String toString() {
+    return "Account{" +
+            "accountId='" + accountId + '\'' +
+            ", fullName='" + fullName + '\'' +
+            ", password='" + password + '\'' +
+            ", email='" + email + '\'' +
+            ", phone='" + phone + '\'' +
+            ", status=" + status +
+            '}';
+  }
+
   // Constructors
   public Account() {
   }
@@ -87,4 +99,5 @@ public class Account {
     this.status = status;
   }
 }
+
 
