@@ -24,6 +24,16 @@ public class GrantAccess {
     public GrantAccess() {
     }
 
+    @Override
+    public String toString() {
+        return "GrantAccess{" +
+                "roleId='" + roleId + '\'' +
+                ", accountId='" + accountId + '\'' +
+                ", isGrant=" + isGrant +
+                ", note='" + note + '\'' +
+                '}';
+    }
+
     public GrantAccess(String roleId, String accountId, boolean isGrant, String note) {
         this.roleId = roleId;
         this.accountId = accountId;

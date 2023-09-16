@@ -32,6 +32,17 @@ public class Log {
     public Log() {
     }
 
+    @Override
+    public String toString() {
+        return "Log{" +
+                "id=" + id +
+                ", accountId='" + accountId + '\'' +
+                ", loginTime=" + loginTime +
+                ", logoutTime=" + logoutTime +
+                ", notes='" + notes + '\'' +
+                '}';
+    }
+
     public Log(Long id, String accountId, LocalDate loginTime, LocalDate logoutTime, String notes) {
         this.id = id;
         this.accountId = accountId;

@@ -31,6 +31,16 @@ public class Role {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "Role{" +
+                "roleId='" + roleId + '\'' +
+                ", roleName='" + roleName + '\'' +
+                ", description='" + description + '\'' +
+                ", status=" + status +
+                '}';
+    }
+
     // Getters and setters
     public String getRoleId() {
         return roleId;
