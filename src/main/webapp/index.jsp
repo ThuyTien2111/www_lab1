@@ -20,7 +20,7 @@
             <div class="card">
                 <div class="card-header">Đăng nhập</div>
                 <div class="card-body">
-                    <form id="formLogin" action="login?action=checkLogin" method="post">
+                    <form id="formLogin" action="login" method="post" >
                         <div class="form-group">
                             <label for="username">Tên người dùng:</label>
                             <input type="text" class="form-control" id="username" name="username" required>
