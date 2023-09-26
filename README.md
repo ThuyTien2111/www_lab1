@@ -1,5 +1,4 @@
-# www_lab1
-# Servlet Project README
+# Servlet Project WEEK 1 README
 
 ## Giới thiệu
 
